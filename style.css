@@ -43,6 +43,9 @@ header {
 
 .yolo{
 	margin-right: 900px;
-	
+}
 
+div .hola {
+	float: left;
+	
 }
