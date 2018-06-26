@@ -1,51 +1,39 @@
-button{
-background-color: #1d9cf2;
-text-decoration: none;
-    padding: 10px;
-    font-weight: 600;
-    font-size: 12px;
-    color: #ffffff;
-    border-radius: 4px;
-    border: 2px solid #1d9cf2;
-    height: 35px;
-    margin-top: none;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
 body{
-	border:black;
-	margin:70px;
-}
-p {
-	font-family: arial;
-
-}
-.hola { 
-	border:gray 0;
-	margin:20px;
+	font-size: 16px;
 }
 
-header {
-	background-color: #D2DCE3;
-	padding: 0.5rem;
-	border: 4px;
-}
- 
-.si{
-	border: 4px;
-	padding-bottom: 0.5rem;
-	background-color: #D2DCE3
-	margin:4px;
-	margin-right: 0;
-	margin-left: 0;
+header{
+	margin: 0;
+	padding: 2rem 0;
+	text-align: center;
 }
 
-.yolo{
-	margin-right: 900px;
+h1{
+	margin: 0;
+	font-size: 1.5rem;
+}
+section{
+	width: 75%;
+	margin: 0 auto;
+	background-color: #ddd;
+}
+section form{
+	padding: 2rem 2rem;
 }
 
-div .hola {
-	float: left;
-	
+section form > div{
+width: 49.5%;
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+section form > div:first-child {
+	width: 100%;
+}
+section form > div > label,
+section form > div > input {
+	display: block;
+}
+section form > div >input {
+	width: 95%;
 }
